@@ -11,8 +11,8 @@
         <div class="title">
             <h1>Tic Tac Toe</h1>
         </div>
-        <div class="player">
-            <h2>Player X turn</h2>
+        <div class="display">
+            Player <span class="display-player playerX">X</span> turn
         </div>
         <div class="tile-container">
             <div class="tile"></div>
@@ -25,8 +25,14 @@
             <div class="tile"></div>
             <div class="tile"></div>
         </div>
+        <div class="display announcer hide">
+
+        </div>
+        <div class="controls">
+            <button id="reset">Reset</button>
+        </div>
     </div>
     
-    <script src="app.js"></script>
+    <script src="./app.js"></script>
 </body>
 </html>
